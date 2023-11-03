@@ -25,6 +25,14 @@ Z7 = -20 - 2*x
 Z8 = -10 - 2*x
 Z9 = -5 - 2*x
 
+#estas para el cuarto cuadrante x1 >= 0, x2 <= 0 Cambio el signo de x1 a negativo y el de x2 tambien
+f7 = -8 + x
+f8 = -18 + 3*x
+Z10 = -20 + 2*x
+Z11 = -10 + 2*x
+Z12 = -5 + 2*x
+
 plot(f1, f2, Z1, Z2, Z3, (x, -2, 10), ylim=(-1, 20), legend=True, title='Simetrias')
 plot(f3, f4, Z4, Z5, Z6, (x, -10, 10), ylim=(-10, 20), legend=True, title='Simetrias')
 plot(f5, f6, Z7, Z8, Z9, (x, -10, 10), ylim=(-10, 20), legend=True, title='Simetrias')
+plot(f7, f8, Z10, Z11, Z12, (x, -10, 10), ylim=(-10, 20), legend=True, title='Simetrias')
