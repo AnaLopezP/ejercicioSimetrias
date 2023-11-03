@@ -5,6 +5,7 @@ x = symbols('x')
 f1 = 8 - x
 f2 = 18 - 3*x
 
+#estas 3 primeras para Z en el primer cuadrante
 Z1 = 20 - 2*x
 Z2 = 10 - 2*x
 Z3 = 5 - 2*x
