@@ -27,4 +27,4 @@ Z9 = -5 - 2*x
 
 plot(f1, f2, Z1, Z2, Z3, (x, -2, 10), ylim=(-1, 20), legend=True, title='Simetrias')
 plot(f3, f4, Z4, Z5, Z6, (x, -10, 10), ylim=(-10, 20), legend=True, title='Simetrias')
-plot(f5, f6, Z7, Z8, Z9, (x, -10, -10), ylim=(-10, -20), legend=True, title='Simetrias')
+plot(f5, f6, Z7, Z8, Z9, (x, -10, 10), ylim=(-10, 20), legend=True, title='Simetrias')
